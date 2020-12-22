@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - Shivesh architects</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper clearfix">
+			<div id="logo">
+				<a href="index.html"><img src="images/aa.jpg"  height="40" width="170"alt="LOGO"></a>
+			</div>
+			<ul id="navigation">
+				<li >
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li >
+					<a href="Services.html">Services</a>
+				</li>
+				<li >
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li class="selected">
+					<a href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="contact" class="wrapper clearfix">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<a href="blog.html"><img src="images/earth-small.jpg" alt="Img" height="154" width="213"></a>
+					</li>
+					<li>
+						<a href="blog.html"><img src="images/spaceshuttle-closeup.jpg" alt="Img" height="154" width="213"></a>
+					</li>
+					<li>
+						<a href="Services.html"><img src="images/IMG_20191123_114208.jpg" alt="Img" height="154" width="213"></a>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="main">
+				<h1>Contact Us</h1>
+				<form name="mail" action="mail.php" method="post">
+					<ul>
+						<li>
+							<label>Enter your full name here.</label>
+							<input type="text" name="Firstname" value="Full Name" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label>Enter your email address here.</label>
+							<input type="text" name="email" value="Email Address" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label>Enter the Subject message here.</label>
+							<input type="text" name="subject" value="Subject" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						</li>
+						<li>
+							<label class="msg">Enter your Message here.</label>
+							<textarea name="msg" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">Message</textarea>
+							
+							<input type="submit" value="Send Now"  class="btn3" onclick="sendEmail()">
+						</li>
+					</ul>
+				
+				</form>
+				
+			</div>
+		</div>
+	</div>
+	 
+	<div id="footer">
+		
+		<div class="body">
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4>Social</h4>
+						<ul>
+							
+							<li>
+								<a href="https://www.youtube.com/channel/UCXZi9En2TMscEsEznf3DJeQ" target="_blank">Youtube</a>
+							</li>
+						</ul>
+					
+						<h4>Contact</h4>
+					<p>
+						MS.D.Indhu MBA<br>
+						8428747388
+						</p>
+					</div>
+				
+				</div>
+				<div id="newsletter">
+					<h4>Address</h4>
+					<p>
+						100 feet,Taramani link road,seethapathi nagar,<br> velachery, <br>chennai 42.<br>shiveshdesignerss@gmail.com 
+						</p>
+						
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
